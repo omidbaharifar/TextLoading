@@ -1,0 +1,37 @@
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text-item {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 8rem;
+    transform: translateY(200px);
+    visibility: hidden;
+    opacity: 0;
+    animation: textAnimate 1s forwards;
+}
+@keyframes textAnimate {
+    100% {
+        transform: translateY(0);
+        visibility: visible;
+        opacity: 1;
+    }
+}
+.text-item:nth-child(1) {
+    animation-delay: 0.2s;
+}
+.text-item:nth-child(2) {
+    animation-delay: 0.4s;
+}
+.text-item:nth-child(3) {
+    animation-delay: 0.6s;
+}
+.text-item:nth-child(4) {
+    animation-delay: 0.8s;
+}
+.text-item:nth-child(5) {
+    animation-delay: 1s;
+}
