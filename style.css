@@ -12,6 +12,7 @@
     opacity: 0;
     animation: textAnimate 1s forwards;
 }
+
 @keyframes textAnimate {
     100% {
         transform: translateY(0);
