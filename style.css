@@ -4,7 +4,6 @@
     justify-content: center;
 }
 
-
 .text-item {
     font-family: 'Franklin Gothic Medium';
     font-size: 8rem;
@@ -20,6 +19,8 @@
         opacity: 1;
     }
 }
+
+/* Increase the delay by 0.2 seconds for each character */
 .text-item:nth-child(1) {
     animation-delay: 0.2s;
 }
